@@ -10,7 +10,7 @@ namespace ToDoList.Model
     {
         public string Task { get; set; }
         public string Place {  get; set; }
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
         public bool Status { get; set; }
     }
 }
